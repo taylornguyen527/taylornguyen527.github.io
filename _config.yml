@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Taylor Nguyen"
-  avatar           : "Taylor_profile.png"
+  avatar           : "Taylor_profile.jpg"
   bio              : "Data Analyst"
-  location         : "Location"
+  location         : #"Location"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : 
-  email            :
+  email            : "tuananhnguyen527@gmail.com"
   researchgate     :  
   uri              :
   bitbucket        :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/taylor527/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "taylor527/"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : 
