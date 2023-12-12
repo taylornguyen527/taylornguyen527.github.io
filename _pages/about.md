@@ -16,4 +16,5 @@ I played a crucial role in achieving an 80% reduction in report processing time 
 In my pursuit of advancing expertise, I broadened my horizons by enrolling in a Master's program in Data Science at Seattle University. Collaborating with intellectual peers, I delved into intricate topics such as machine learning, data visualization, and statistics, further enriching my understanding and skills in the dynamic field of data science.
 
 My latest works could be found here: [Portfolio](/portfolio/)
+
 My full resume could be found here: [Resume](/cv/)
