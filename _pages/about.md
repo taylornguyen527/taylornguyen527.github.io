@@ -9,11 +9,13 @@ redirect_from:
 ---
 
 {% include base_path %}
-Embarking on my journey as a data enthusiast, I initially cultivated my skills in Product Management and Marketing, where the imperative for evidence-based decisions was pivotal. From the early days of my data career, I have maintained a proactive stance, consistently seeking opportunities for improvement and willingly engaging in challenging tasks. In transitioning to Data Analyst roles, I consistently applied my business acumen to scrutinize business and internal processes, actively seeking opportunities to enhance workflow efficiency. This often involved implementing automated workflows for streamlined operations.
+My journey as a data enthusiast kicked off in the world of Product Management and Marketing, where evidence-based decisions was pivotal. From the get-go of my data adventures, I've embraced challenges, always ready for the next exciting data puzzle. As I transitioned into the world of Data Analyst roles, I seamlessly incorporated my business acumen to refine business processes and seek opportunities for streamlined efficiency. Think of it like a professional dance—carefully choreographed, with each move aimed at enhancing workflow dynamics, including the clever use of automated workflows for that extra touch of efficiency.
 
-I played a crucial role in achieving an 80% reduction in report processing time at the McKinstry Charitable Foundation by integrating data from diverse sources and transforming it into a cohesive framework. I utilized tools such as Excel and PowerBI to streamline the process effectively. Furthermore, at JND Legal Administration, I personally crafted multiple standardized scripts and stored procedures using SQL, resulting in a significant 50% reduction in time spent on routine tasks for the team in my first 3 months.
+In my role at the McKinstry Charitable Foundation, I orchestrated an impressive 80% reduction in report processing time. The secret sauce? Excel PowerQuery. Excel, you might ask? Yes! It goes to show that sometimes the most effective solutions are not necessarily the flashiest but tailored to the needs of the clients.
 
-In my pursuit of advancing expertise, I broadened my horizons by enrolling in a Master's program in Data Science at Seattle University. Collaborating with intellectual peers, I delved into intricate topics such as machine learning, data visualization, and statistics, further enriching my understanding and skills in the dynamic field of data science.
+Furthermore, at JND Legal Administration, I personally crafted multiple standardized scripts and stored procedures using SQL, resulting in a significant 50% reduction in time spent on routine tasks for the team in my first 3 months.
+
+In my pursuit of advancing expertise, I broadened my horizons by enrolling in a Master's program in Data Science at Seattle University. Collaborating with intellectual peers, I delved into intricate topics such as machine learning, data visualization, and statistics. This academic journey has significantly enriched my understanding and skills in the dynamic field of data science, providing me with a robust foundation as I continue to contribute to the decision-making processes of management through BI development.
 
 My latest works could be found here: [Portfolio](/portfolio/)
 
