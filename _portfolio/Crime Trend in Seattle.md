@@ -5,8 +5,10 @@ excerpt: "The analysis presents a comprehensive analysis of crime distribution a
 ---
 
 
-[Github Code Repository](https://github.com/akankshasharmadid/SeattleCrimeAnalysis)
- 
+[Codes and original submits](https://github.com/akankshasharmadid/SeattleCrimeAnalysis)
+# Note on team contribution
+In this report, my emphasis has been on executing a multi-level spatial analysis. The process initiates with geoprocessing diverse geometry types, aiming to reveal multi-level crime patterns. Additionally, it ensures the accurate integration of demographic details, such as population and land areas, to facilitate a more in-depth analysis. The method entails sourcing datasets from Seattle Police Department, Seattle City, and Cencus data to brings in meaningful crime patterns with demographic factors while not losing localization of crime.
+
 # Introduction:
 
 This report presents a comprehensive analysis of crime distribution and trends in the city of Seattle for the years 2008 to 2022, emphasizing year 2022 to understand the present crime dynamics in Seattle, by utilizing a robust dataset obtained from the Seattle Police Department. The dataset is a rich amalgamation of information, detailing the types of offenses, the locations where they occurred, the times at which they took place, and other critical variables that give a multi-dimensional view of criminal activity within the city.
