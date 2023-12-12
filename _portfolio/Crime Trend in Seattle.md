@@ -7,7 +7,7 @@ excerpt: "The analysis presents a comprehensive analysis of crime distribution a
 
 [Codes and original submits](https://github.com/akankshasharmadid/SeattleCrimeAnalysis)
 # Note on team contribution
-In this report, my emphasis has been on executing a multi-level spatial analysis. The process initiates with geoprocessing diverse geometry types, aiming to reveal multi-level crime patterns. Additionally, it ensures the accurate integration of demographic details, such as population and land areas, to facilitate a more in-depth analysis. The method entails sourcing datasets from Seattle Police Department, Seattle City, and Cencus data to brings in meaningful crime patterns with demographic factors while not losing localization of crime.
+In this report, my emphasis has been on executing a multi-level spatial analysis. The process initiates with geoprocessing diverse geometry types, aiming to reveal multi-level crime patterns. Additionally, it ensures the accurate integration of demographic details, such as population and land areas, to facilitate a more in-depth analysis. The method entails sourcing datasets from Seattle Police Department, Seattle City, and Cencus data to brings in meaningful crime distributions with demographic factors while not losing localization of crime.
 
 # Introduction:
 
