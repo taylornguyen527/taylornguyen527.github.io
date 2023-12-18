@@ -21,9 +21,11 @@ The incident coordinates undergo transformation into Geometry point objects, fac
 ## Seattle Crime Dynamics: Crime Trends Over the Period 2008-2022
 Examining the data from 2009 to 2022 reveals a noteworthy upward trend in overall crime in Seattle. 
 ![Figure 1: Crime Trends In Seattle ](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Crime_trend.png)
+
 Although crime rates experienced a dip from 2008 to 2012, decreasing from 65,000 to just under 60,000, they consistently rose, peaking at around 76,000 in 2020 and maintaining levels above 70,000 through 2022.
 
 ![Figure 2: Top 3 crime in change percentage](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/top3_change_overtime.png)
+
 During this period, the top three crimes with the most significant increases were extortion/blackmail, human trafficking, and kidnapping/abduction, exhibiting growth rates of 425%, 376%, and 1,500%, respectively. Despite these seemingly rapid changes, the absolute numbers of these crimes remain relatively insignificant compared to other crime categories. Extortion/blackmail increased from 27 to 115 cases over 13 years, while kidnapping/abduction grew from 55 to 207 cases. Human trafficking, first reported in Seattle in 2018, consistently reported cases below 15 annually.
 
 ![Figure 3: Most frequent crimes in Seattle](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Top10_count.png)
@@ -31,6 +33,7 @@ During this period, the top three crimes with the most significant increases wer
 Interestingly, these high-growth categories do not make the top 10 list of popular crimes in Seattle. The most frequently committed crime in 2022 is Larceny/Theft, accounting for 24,115 cases and contributing to more than a third of all crimes in Seattle. Following closely are Assault and Burglary, with 11,402 and 8,742 cases, respectively. Collectively, these top three crimes, constituting 10% of total crimes, contribute to 65% of all reported incidents.
 
 ![Figure 4: Crime Trends In Seattle ](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Top3_count_overtime.png)
+
 While these three major crimes collectively grew over 24% during the analyzed period, they followed distinct trajectories. Until 2018, they fluctuated with upward trends, after which Larceny/Theft returned to approximately the same level as in 2008 in 2020. Assault cases experienced a drop from a 25% increase to a 15% increase in the same period. Notably, Burglary surged significantly in 2020, increasing by 50% compared to 2008, and maintained a high count, cooling down to a 33% increase in 2022.
 
 In summary, the overall crime rate in Seattle increased by approximately 15% over the 13-year period, averaging around 1.15% per year. The fastest-growing crime was human trafficking, reported since 2018, showing a remarkable 1,500% increase from one annual case to 15 annual cases. The most frequently committed crimes in Seattle—Theft, Assault, and Burglary—account for 65% of all incidents, with a collective increase of more than 25% over the specified time frame. Notably, during the year of the COVID-19 pandemic, Theft cases mirrored the initial period, while Burglary experienced a sudden 30% surge.
