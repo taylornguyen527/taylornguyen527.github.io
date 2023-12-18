@@ -1,3 +1,9 @@
+---
+title: "Seattle Crime Distribution Analysis with Multi-Level Zoning Examination"
+excerpt: "Explore a thorough analysis crime distribution and trends in Seattle from 2008 to 2022. Utilizing a robust dataset from the Seattle Police Department, this analysis delves into offense types, locations, timings, and other critical variables, providing a multi-level zoning areas analysis to unravel localized patterns and understand crime dynamics at different levels within the city.".<br/>"
+
+---
+
 ## Author note:
 In the context of my Master of Data Science program at Seattle University, this project represents a collaborative effort for my Data Visualization class. 
 In the public-facing iteration of this report, my emphasis shifts towards seamless narratives and effective storytelling, deviating from the original focus on visualization components and design choices.
