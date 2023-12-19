@@ -4,15 +4,6 @@ excerpt: "Explore a thorough analysis crime distribution and trends in Seattle f
 
 ---
 
-
-## Author note:
-In the context of my Master of Data Science program at Seattle University, this project represents a collaborative effort for my Data Visualization class. 
-In the public-facing iteration of this report, my emphasis shifts towards seamless narratives and effective storytelling, deviating from the original focus on visualization components and design choices.
-
-My specific contribution to this report lies in executing a multi-level geospatial analysis. The process commences with geoprocessing multiple geometry types, aiming to unveil crime patterns across multiple zoning areas. Additionally, it ensures the precise integration of demographic details, including population and land areas, thereby facilitating a more thorough and nuanced analysis.
-
-The original collaborative submission that providing detailed insights into the design choices for each graph encodings, and the Python codes with comments could be found in: [Codes and original submits](https://github.com/akankshasharmadid/SeattleCrimeAnalysis).
-
 # Goal:
 The central aim of this analysis is to conduct an investigation into the transformation of crime in Seattle over time while discerning its geographical distribution across various levels of zoning. The study seeks to reveal patterns and trends that illustrate the dynamics of criminal activity within the city, extending its focus to smaller communities for a more detailed understanding.
 
@@ -33,7 +24,7 @@ Although crime rates experienced a dip from 2008 to 2012, decreasing from 65,000
 
 ![Figure 2: Top 3 crime in change percentage](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/top3_change_overtime.png)
 
-During this period, the top three crimes with the most significant increases were extortion/blackmail, human trafficking, and kidnapping/abduction, exhibiting growth rates of 425%, 376%, and 1,500%, respectively. Despite these seemingly rapid changes, the absolute numbers of these crimes remain relatively insignificant compared to other crime categories. Extortion/blackmail increased from 27 to 115 cases over 13 years, while kidnapping/abduction grew from 55 to 207 cases. Human trafficking, first reported in Seattle in 2018, consistently reported cases below 15 annually.
+During this period, the top three crimes with the most significant increases were extortion/blackmail, human trafficking, and kidnapping/abduction, exhibiting growth rates of 326%, 276%, and 1,400%, respectively. Despite these seemingly rapid changes, the absolute numbers of these crimes remain relatively insignificant compared to other crime categories. Extortion/blackmail increased from 27 to 115 cases over 13 years, while kidnapping/abduction grew from 55 to 207 cases. Human trafficking, first reported in Seattle in 2018, consistently reported cases below 15 annually.
 
 ![Figure 3: Most frequent crimes in Seattle](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Top10_count.png)
 
@@ -41,7 +32,7 @@ Interestingly, these high-growth categories do not make the top 10 list of popul
 
 ![Figure 4: Popular crime changes overtime](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Top3_count_overtime.png)
 
-While these three major crimes collectively grew over 24% during the analyzed period, they followed distinct trajectories. Until 2018, they fluctuated with upward trends, after which Larceny/Theft returned to approximately the same level as in 2008 in 2020. Assault cases experienced a drop from a 25% increase to a 15% increase in the same period. Notably, Burglary surged significantly in 2020, increasing by 50% compared to 2008, and maintained a high count, cooling down to a 33% increase in 2022.
+While these three major crimes grew over 24% during the analyzed period, they followed distinct trajectories. Until 2018, they fluctuated with upward trends, after which Larceny/Theft returned to approximately the same level as in 2008 in 2020. Assault cases experienced a drop from a 25% increase to a 15% increase in the same period. Notably, Burglary surged significantly in 2020, from 17% increase rate to 50%, and maintained a high count, cooling down to a 33% in 2022.
 
 In summary, the overall crime rate in Seattle increased by approximately 15% over the 13-year period, averaging around 1.15% per year. The fastest-growing crime was human trafficking, reported since 2018, showing a remarkable 1,500% increase from one annual case to 15 annual cases. The most frequently committed crimes in Seattle—Theft, Assault, and Burglary—account for 65% of all incidents, with a collective increase of more than 25% over the specified time frame. Notably, during the year of the COVID-19 pandemic, Theft cases mirrored the initial period, while Burglary experienced a sudden 30% surge.
 
@@ -94,6 +85,14 @@ Seattle Police Department Crime Data: https://data.seattle.gov/Public-Safety/SPD
 Seattle Geographic Data: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::selected-demographic-and-housing-estimates-dp05/explore  
 Seattle GIS: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::community-reporting-areas-3/about  
 Seattle Census Dataset: https://data.seattle.gov/dataset/2020-Census-Blocks-Seattle/rg9f-z788/data  
+
+## Author note:
+In the context of my Master of Data Science program at Seattle University, this project represents a collaborative effort for my Data Visualization class. 
+In the public-facing iteration of this report, my emphasis shifts towards seamless narratives and effective storytelling, deviating from the original focus on visualization components and design choices.
+
+My specific contribution to this report lies in executing a multi-level geospatial analysis. The process commences with geoprocessing multiple geometry types, aiming to unveil crime patterns across multiple zoning areas. Additionally, it ensures the precise integration of demographic details, including population and land areas, thereby facilitating a more thorough and nuanced analysis.
+
+The original collaborative submission that providing detailed insights into the design choices for each graph encodings, and the Python codes with comments could be found in: [Codes and original submits](https://github.com/akankshasharmadid/SeattleCrimeAnalysis).
 
 ## Authors
 [(Back to top)](#table-of-contents)
