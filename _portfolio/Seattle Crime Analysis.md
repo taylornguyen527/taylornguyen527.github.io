@@ -1,8 +1,9 @@
 ---
-title: "Seattle Crime Distribution Analysis with Multi-Level Zoning Examination"
+title: "Seattle Crime Trends and Distribution Analysis "
 excerpt: "Explore a thorough analysis crime distribution and trends in Seattle from 2008 to 2022. Utilizing a robust dataset from the Seattle Police Department, this analysis delves into offense types, locations, timings, and other critical variables, providing a multi-level zoning areas analysis to unravel localized patterns and understand crime dynamics at different levels within the city.<br/>"
 
 ---
+The original collaborative submission that providing detailed insights into the design choices for each graph encodings, and the Python codes with comments could be found in: [Github Repository](https://github.com/akankshasharmadid/SeattleCrimeAnalysis).
 
 # Goal:
 The central aim of this analysis is to conduct an investigation into the transformation of crime in Seattle over time while discerning its geographical distribution across various levels of zoning areas. The report seeks to reveal patterns and trends that illustrate the dynamics of criminal activity within the city, extending its focus to smaller communities for a more detailed understanding of the most vulnerable areas by crimes.
@@ -13,6 +14,8 @@ The analysis relies on crime data acquired from the Seattle Police Department, c
 Each incident is associated with start time, end time, and report time, with a preference for using the reported time for filtering as incidents are considered finalized at that point. Additionally, incidents are geographically tagged with coordinates and various location identifiers such as police precincts, beats, and sectors. To ensure public understanding, the analysis utilizes Community Reporting Areas (CRAs) in Seattle, which delineate neighborhoods and neighborhood districts,providing a more accessible language. These CRAs aggregate smaller zoning areas like Census tracts and blocks, ensuring precise reporting without overlaps. Data from the Census Bureau are pulled in for these smaller area characteristics and geometry.
 
 The incident coordinates undergo transformation into Geometry point objects, facilitating a spatial join technique to determine the larger zoning areas to which each point belongs. Subsequently, a merger is conducted with the "Selected Demographic and Housing Estimates (DP05)" data for the year 2020, incorporating geo spatial population information. The combination of crime patterns with demographic factors provides valuable insights, enriching the understanding of the socio-economic landscape in Seattle.
+
+All datasets are listed in References.
 
 # Insights:
 
@@ -34,7 +37,7 @@ Interestingly, these high-growth categories do not make the top 10 list of popul
 
 While these three major crimes grew over 24% during the analyzed period, they followed distinct trajectories. Until 2018, they fluctuated with upward trends, after which Larceny/Theft returned to approximately the same level as in 2008 in 2020. Assault cases experienced a drop from a 25% increase to a 15% increase in the same period. Notably, Burglary surged significantly in 2020, from 17% increase rate to 50%, and maintained a high count, cooling down to a 33% in 2022.
 
-In summary, the overall crime rate in Seattle increased by approximately 15% over the 13-year period, averaging around 1.15% per year. The fastest-growing crime was human trafficking, reported since 2018, showing a remarkable 1,500% increase from one annual case to 15 annual cases. The most frequently committed crimes in Seattle—Theft, Assault, and Burglary—account for 65% of all incidents, with a collective increase of more than 25% over the specified time frame. Notably, during the year of the COVID-19 pandemic, Theft cases mirrored the initial period, while Burglary experienced a sudden 30% surge.
+In summary, the overall crime rate in Seattle increased by approximately 15% over the 13-year period, averaging around 1.15% per year. The fastest-growing crime was human trafficking, reported since 2018, showing a remarkable 1,400% increase from one annual case to 15 annual cases. The most frequently committed crimes in Seattle—Theft, Assault, and Burglary—account for 65% of all incidents, with a collective increase of more than 25% over the specified time frame. Notably, during the year of the COVID-19 pandemic, Theft cases mirrored the initial period, while Burglary experienced a sudden 30% surge.
 
 ## Identifying Seattle's Most Vulnerable Neighborhood
 Zoning areas like Cencus tracts and blocks change the borders based on their current population. Therefore, the report would only use the data of 2022 to compares between neighborhoods to allign with latest border changes.
@@ -71,7 +74,7 @@ In addition to the neighborhood with the highest crime rate, the analysis highli
 # Conclusions
 In summary, the comprehensive analysis of Seattle's crime trends from 2008 to 2022 has provided valuable insights into the city's public safety landscape. A general upward trend in crime rates was observed over the years, with larceny/theft, burglary, and assault being predominant. Specific areas, such as Queen Anne and Capitol Hill, showed higher incidences of assault and burglary, signaling the need for targeted interventions in these regions.
 
-The geographical distribution and density analysis unveiled variations, with some neighborhoods having high crime counts and others exhibiting higher crime rates per capita or per square mile. This highlights the necessity for tailored crime prevention methods in specific areas. The correlation between population density and crime count emphasizes the challenges faced by more densely populated areas.
+The geographical distribution and density analysis unveiled variations, with some neighborhoods having high crime counts and others exhibiting higher crime rates per capita or per square mile. The correlation between population density and crime count emphasizes the challenges faced by more densely populated areas.  Downtown consistently ranks highest in all metrics. This showcases the needs for more resources in higher densed communities. 
 
 The multi-level geographical analysis revealed intricate micro-level patterns of crime within Seattle. Although Downtown exhibited the highest overall crime rate among neighborhoods, a closer examination identified specific blocks with a concentration of criminal incidents. This nuanced understanding underscores the importance of exploring finer geographic units, such as individual blocks, to capture localized variations in crime distribution.
 
@@ -82,9 +85,9 @@ Moving forward, implementing statistical models like Kernel Density Estimation (
 
 ### References:
 Seattle Police Department Crime Data: https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5  
-Seattle Geographic Data: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::selected-demographic-and-housing-estimates-dp05/explore  
-Seattle GIS: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::community-reporting-areas-3/about  
-Seattle Census Dataset: https://data.seattle.gov/dataset/2020-Census-Blocks-Seattle/rg9f-z788/data  
+Seattle Demogrphic Data: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::selected-demographic-and-housing-estimates-dp05/explore  
+Seattle Community Areas Geospatial data: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::community-reporting-areas-3/about  
+Seattle Census Block data: https://data.seattle.gov/dataset/2020-Census-Blocks-Seattle/rg9f-z788/data  
 
 ## Author note:
 In the context of my Master of Data Science program at Seattle University, this project represents a collaborative effort for my Data Visualization class. 
@@ -92,7 +95,7 @@ In the public-facing iteration of this report, my emphasis shifts towards seamle
 
 My specific contribution to this report lies in executing a multi-level geospatial analysis. The process commences with geoprocessing multiple geometry types, aiming to unveil crime patterns across multiple zoning areas. Additionally, it ensures the precise integration of demographic details, including population and land areas, thereby facilitating a more thorough and nuanced analysis.
 
-The original collaborative submission that providing detailed insights into the design choices for each graph encodings, and the Python codes with comments could be found in: [Codes and original submits](https://github.com/akankshasharmadid/SeattleCrimeAnalysis).
+
 
 ## Authors
 [(Back to top)](#table-of-contents)
