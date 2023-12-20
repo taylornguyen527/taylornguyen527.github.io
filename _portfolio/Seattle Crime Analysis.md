@@ -5,7 +5,7 @@ excerpt: "Explore a thorough analysis crime distribution and trends in Seattle f
 ---
 
 # Goal:
-The central aim of this analysis is to conduct an investigation into the transformation of crime in Seattle over time while discerning its geographical distribution across various levels of zoning. The study seeks to reveal patterns and trends that illustrate the dynamics of criminal activity within the city, extending its focus to smaller communities for a more detailed understanding.
+The central aim of this analysis is to conduct an investigation into the transformation of crime in Seattle over time while discerning its geographical distribution across various levels of zoning areas. The report seeks to reveal patterns and trends that illustrate the dynamics of criminal activity within the city, extending its focus to smaller communities for a more detailed understanding of the most vulnerable areas by crimes.
 
 # Data Introduction and Preparation:
 The analysis relies on crime data acquired from the Seattle Police Department, covering the period from 2008 to 2022. Each crime report is uniquely identified by a Report Number, and are categorized by both specific Offense Types and broader Offense Parent Groups. Notably, due to the granularity of Offense Types, the report opts for Offense Parent Groups to streamline the crime classification.
@@ -28,7 +28,7 @@ During this period, the top three crimes with the most significant increases wer
 
 ![Figure 3: Most frequent crimes in Seattle](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Top10_count.png)
 
-Interestingly, these high-growth categories do not make the top 10 list of popular crimes in Seattle. The most frequently committed crime in 2022 is Larceny/Theft, accounting for 24,115 cases and contributing to more than a third of all crimes in Seattle. Following closely are Assault and Burglary, with 11,402 and 8,742 cases, respectively. Collectively, these top three crimes, constituting 10% of total crimes, contribute to 65% of all reported incidents.
+Interestingly, these high-growth categories do not make the top 10 list of popular crimes in Seattle. The most frequently committed crime in 2022 is Larceny/Theft, accounting for 24,115 cases and contributing to more than a third of all crimes in Seattle. Following closely are Assault and Burglary, with 11,402 and 8,742 cases, respectively. Collectively, these top three crimes out of all 31 crimes, contribute to 65% of all reported incidents.
 
 ![Figure 4: Popular crime changes overtime](https://raw.githubusercontent.com/taylornguyen527/Seattle_Crime_Analysis/main/Figures/Top3_count_overtime.png)
 
