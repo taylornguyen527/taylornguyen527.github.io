@@ -1,6 +1,6 @@
 ---
 title: "Seattle Crime Trends and Distribution Analysis "
-excerpt: "Explore a thorough analysis crime distribution and trends in Seattle from 2008 to 2022. Utilizing a robust dataset from the Seattle Police Department, this analysis delves into offense types, locations, timings, and other critical variables, providing a multi-level zoning areas analysis to unravel localized patterns and understand crime dynamics at different levels within the city.<br/>"
+excerpt: "Explore an analysis on crime distribution and trends in Seattle from 2008 to 2022. Utilizing crime dataset from the Seattle Police Department and many geospatial data from Seattle City and CencusBureau, this analysis delves into offense types, locations, and other demographic factors. It also provides a multi-level zoning areas analysis to unravel localized patterns and understand crime dynamics at different levels within the city.<br/>"
 
 ---
 The original collaborative submission that providing detailed insights into the design choices for each graph encodings, and the Python codes with comments could be found in: [Github Repository](https://github.com/akankshasharmadid/SeattleCrimeAnalysis).
