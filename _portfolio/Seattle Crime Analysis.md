@@ -1,6 +1,6 @@
 ---
 title: "Seattle Crime Trends and Distribution Analysis "
-excerpt: "Explore an analysis on crime distribution and trends in Seattle from 2008 to 2022. Utilizing crime dataset from the Seattle Police Department and many geospatial data from Seattle City and the Cencus Bureau, this analysis delves into offense types, locations, and other demographic factors. It also provides a multi-level zoning area analysis to unravel localized patterns and understand crime dynamics at different levels within the city.<br/>"
+excerpt: "Explore an analysis on crime distribution and trends in Seattle from 2008 to 2022. Utilizing crime dataset from the Seattle Police Department and many geospatial data from Seattle City and the Census Bureau, this analysis delves into offense types, locations, and other demographic factors. It also provides a multi-level zoning area analysis to unravel localized patterns and understand crime dynamics at different levels within the city.<br/>"
 
 ---
 The original collaborative submission that providing detailed insights into the design choices for each graph encodings, and the Python codes with comments could be found in: [Github Repository](https://github.com/akankshasharmadid/SeattleCrimeAnalysis).
@@ -40,7 +40,7 @@ While these three major crimes grew over 24% during the analyzed period, they fo
 In summary, the overall crime rate in Seattle increased by approximately 15% over the 13-year period, averaging around 1.15% per year. The fastest-growing crime was human trafficking, reported since 2018, showing a remarkable 1,400% increase from one annual case to 15 annual cases. The most frequently committed crimes in Seattle—Theft, Assault, and Burglary—account for 65% of all incidents, with a collective increase of more than 25% over the specified time frame. Notably, during the year of the COVID-19 pandemic, Theft cases mirrored the initial period, while Burglary experienced a sudden 30% surge.
 
 ## Identifying Seattle's Most Vulnerable Neighborhood
-Zoning areas like Cencus tracts and blocks change the borders based on their current population. Therefore, the report would only use the data of 2022 to compares between neighborhoods to allign with latest border changes.
+Zoning areas like Census tracts and blocks change the borders based on their current population. Therefore, the report would only use the data of 2022 to compares between neighborhoods to allign with latest border changes.
 
 To pinpoint Seattle's most precarious neighborhood, we begin by examining the potential relationship between crime rate and population density. Figure 5 illustrates a conceivable positive correlation, indicating that highly dense neighborhoods are more prone to witnessing increased crime incidents.
 
