@@ -1,5 +1,5 @@
 ---
-title: "Seattle Crime Trends and Distribution Analysis "
+title: "Seattle Crime Trends and Spatial Distribution Analysis "
 excerpt: "Explore an analysis on crime distribution and trends in Seattle from 2008 to 2022. Utilizing crime dataset from the Seattle Police Department and many geospatial data from Seattle City and the Census Bureau, this analysis delves into offense types, locations, and other demographic factors. It also provides a multi-level zoning area analysis to unravel localized patterns and understand crime dynamics at different levels within the city.<br/>"
 
 ---
@@ -7,6 +7,19 @@ The original collaborative submission that providing detailed insights into the 
 
 # Goal:
 The central aim of this analysis is to conduct an investigation into the transformation of crime in Seattle over time while discerning its geographical distribution across various levels of zoning areas. The report seeks to reveal patterns and trends that illustrate the dynamics of criminal activity within the city, extending its focus to smaller communities for a more detailed understanding of the most vulnerable areas by crimes.
+
+# Key Insights
+- Over time, there's been an approximate 16% increase in Seattle's overall crime rate.
+- Predominant crime categories include Theft, Assault, and Burglary, collectively constituting 65% of the city's total crime.
+- The Downtown area of Seattle emerges as the most susceptible to crime, considering both the volume of incidents and the density of crimes.
+- A specific high-risk zone has been identified within Seattle Downtown, confined by 2nd & 3rd Ave and Pike & Union St, showcasing the highest crime rates.
+
+# Technologies:
+Python was selected as the primary programming language due to its versatility and the rich ecosystem of data analysis libraries:
+- Pandas and Numpy for basic data preprocessing and analysis.
+- Altair was utilized for its sophisticated visualization capabilities, and the ability for more encoding control.
+- GeoPandas was employed for its powerful geospatial data processing abilities, facilitating efficient manipulation and analysis of geographical data.
+- Folium was chosen for its proficiency in rendering interactive maps.
 
 # Data Introduction and Preparation:
 The analysis relies on crime data acquired from the Seattle Police Department, covering the period from 2008 to 2022. Each crime report is uniquely identified by a Report Number, and are categorized by both specific Offense Types and broader Offense Parent Groups. Notably, due to the granularity of Offense Types, the report opts for Offense Parent Groups to streamline the crime classification.
