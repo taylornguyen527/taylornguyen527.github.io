@@ -1,4 +1,8 @@
+---
+title: "California on the Move: Insights into Statewide and Interstate Migration Trends"
+excerpt: "Discover where Californians are moving to and from, both across state lines and within the Golden State. This dashboard offers a clear view of population trends, helping you pinpoint growing counties and potential real estate opportunities beyond major hubs like Los Angeles. Explore the data to uncover the economic and housing factors driving these shifts.<br/>"
 
+---
 
 This interactive Tableau dashboard explores migration patterns involving California, highlighting population movements to and from other states as well as within California’s counties. Designed for personal use, the dashboard helps uncover trends in housing and economic factors influenced by population influx. By analyzing these shifts, you can identify potential opportunities for real estate investment outside of major hubs like Los Angeles or Santa Ana, focusing on emerging counties with promising growth or affordability.
 
